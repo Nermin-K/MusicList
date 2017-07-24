@@ -1,0 +1,6 @@
+/*These are the rules which Babel will use when Webpack calls upon it 
+to transpile your ES7 and JSX down to regular old JavaScript*/
+{
+  "presets": ["es2017", "react"],
+  "plugins": ["react-hot-loader/babel"]
+}
